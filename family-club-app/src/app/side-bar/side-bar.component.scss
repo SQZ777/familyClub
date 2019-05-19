@@ -1,0 +1,34 @@
+.user-image {
+  margin-top: 5%;
+  border: white solid;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+
+.side-bar {
+  height: 100%;
+  width: 260px;
+  background-color: #011627;
+}
+
+.side-item-group {
+  margin-top: 20px;
+  font-size: 1.4rem;
+
+  .nav-item {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    width: 100%;
+    padding: 10px;
+  }
+
+  .nav-item:hover {
+      cursor: pointer;
+      background-color: #C1C1C1;
+  }
+}
